@@ -8,7 +8,7 @@ body {
 div#content {
     padding: 50px;
     background-color: beige;
-    border: dotted 20px #333333;
+    border: groove 100px #333333;
     height: 100vh;
 }
 
