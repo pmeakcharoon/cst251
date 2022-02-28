@@ -1,5 +1,5 @@
 body {
-    font-family: fantasy, Verdana, Arial, "san serif";
+    font-family: Times, cursive, "san serif";
     background-color: lightblue;
     padding: 25px;
     font-size: 120%;
@@ -9,7 +9,7 @@ div#content {
     padding: 50px;
     background-color: beige;
     border: solid 1px #333333;
-    height: 80vh;
+    height: 100vh;
 }
 
 h1, h2, h3 {
