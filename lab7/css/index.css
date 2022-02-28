@@ -9,6 +9,7 @@ div#content {
     padding: 50px;
     background-color: beige;
     border: groove 100px #333333;
+    border-color: white
     height: 100vh;
 }
 
