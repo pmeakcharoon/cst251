@@ -7,11 +7,10 @@ body {
 
 div#content {
     padding: 50px;
-    background-color: lightgray;
+    background-color: white;
     border: dashed 5px #333333;
     height: 100vh;
 }
-
 h1, h2, h3 {
     font-family: "Courier New", monospace;
 }
