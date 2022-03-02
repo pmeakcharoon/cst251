@@ -11,6 +11,21 @@ div#challenge {
     border: dashed 5px #333333;
     height: 100vh;
 }
+
+div#problems {
+        padding: 50px;
+        background-color: white;
+        border: dashed 5px #333333;
+        height: 100vh;
+}
+
+div#finalresult {
+            padding: 50px;
+            background-color: white;
+            border: dashed 5px #333333;
+            height: 100vh;
+}
+
 h1, h2, h3 {
     font-family: "Courier New", monospace;
 }
