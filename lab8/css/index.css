@@ -12,6 +12,13 @@ div#content {
     height: 100vh;
 }
 
+div#lab {
+    padding: 50px;
+    background-color: white;
+    border: dashed 5px #333333;
+    height: 50vh;
+}
+
 h1, h2, h3 {
     font-family: "Courier New", monospace;
 }
