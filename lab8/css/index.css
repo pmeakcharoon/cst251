@@ -1,6 +1,6 @@
 body {
     font-family: cursive;
-    background-color: brown;
+    background-color: lightblue;
     padding: 25px;
     font-size: 120%;
 }
@@ -13,6 +13,9 @@ div#content {
 }
 h1, h2, h3 {
     font-family: "Courier New", monospace;
+}
+p {
+  content: white;
 }
 
 img {
