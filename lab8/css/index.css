@@ -5,7 +5,7 @@ body {
     font-size: 120%;
 }
 
-div.challenge {
+div#challenge {
     padding: 50px;
     background-color: white;
     border: dashed 5px #333333;
@@ -13,9 +13,6 @@ div.challenge {
 }
 h1, h2, h3 {
     font-family: "Courier New", monospace;
-}
-p.challenge {
-  content: white;
 }
 
 img {
