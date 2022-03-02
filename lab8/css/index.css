@@ -14,7 +14,7 @@ div#content {
 h1, h2, h3 {
     font-family: "Courier New", monospace;
 }
-p {
+p.challenge {
   content: white;
 }
 
