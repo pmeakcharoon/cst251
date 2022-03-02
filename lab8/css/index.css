@@ -8,8 +8,8 @@ body {
 div#content {
     padding: 50px;
     background-color: white;
-    border: solid 1px #333333;
-    height: 80vh;
+    border: dashed 5px #333333;
+    height: 100vh;
 }
 
 h1, h2, h3 {
