@@ -5,7 +5,7 @@ body {
     font-size: 120%;
 }
 
-div#content {
+div.challenge {
     padding: 50px;
     background-color: white;
     border: dashed 5px #333333;
