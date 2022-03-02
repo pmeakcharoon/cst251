@@ -32,6 +32,7 @@ h2 {
 }
 
 img {
+    padding: 10px
     float: right;
     width: 400px;
     height: auto;
@@ -41,6 +42,7 @@ img:hover{
     width:600px;
     height:auto;
 }
+
 a {
     text-decoration: none;
     color: maroon;
