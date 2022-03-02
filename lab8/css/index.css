@@ -1,5 +1,5 @@
 body {
-    font-family: Helvetica, Verdana, Arial, "san serif";
+    font-family: cursive;
     background-color: brown;
     padding: 25px;
     font-size: 120%;
@@ -7,7 +7,7 @@ body {
 
 div#content {
     padding: 50px;
-    background-color: white;
+    background-color: lightgray;
     border: dashed 5px #333333;
     height: 100vh;
 }
