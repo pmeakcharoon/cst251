@@ -5,25 +5,11 @@ body {
     font-size: 120%;
 }
 
-div#challenge {
+div#content {
     padding: 50px;
     background-color: white;
     border: dashed 5px #333333;
     height: 100vh;
-}
-
-div#problems {
-        padding: 50px;
-        background-color: white;
-        border: dashed 5px #333333;
-        height: 100vh;
-}
-
-div#finalresult {
-            padding: 50px;
-            background-color: white;
-            border: dashed 5px #333333;
-            height: 100vh;
 }
 
 h1, h2, h3 {
