@@ -1,3 +1,8 @@
+div#lab {
+  color: white
+  -webkit-text-stroke: 2px black;
+}
+
 body {
     font-family: Helvetica, Verdana, Arial, "san serif";
     background-color: #E3AE96;
@@ -17,8 +22,9 @@ h1, h2, h3 {
 }
 
 img {
+    padding: 20px;
     float: right;
-    width: 400px;
+    width: 300px;
     height: auto;
 }
 
