@@ -1,24 +1,32 @@
 div#lab {
-  color: white
+  color: white;
   -webkit-text-stroke: 2px black;
 }
 
 body {
-    font-family: Helvetica, Verdana, Arial, "san serif";
-    background-color: #00B573;
+    font-family: cursive;
+    background-color: #A2E4B8;
     padding: 25px;
     font-size: 120%;
 }
 
 div#content {
     padding: 50px;
-    background-color: beige;
-    border: solid 1px #333333;
-    height: 80vh;
+    background-color: #E3AE96;
+    border: dashed 2px #333333;
+    height: 90vh;
 }
 
 h1, h2, h3 {
-    font-family: "Courier New", monospace;
+    font-family: "fantasy"
+}
+
+h2 {
+  color: #70574B;
+}
+
+h3 {
+  color: #70574B;
 }
 
 img {
