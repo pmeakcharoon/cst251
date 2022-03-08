@@ -1,0 +1,32 @@
+body {
+    font-family: Brush Script MT, Brush Script Std, "cursive";
+    background-color: #FFB673;
+    padding: 25px;
+    font-size: 120%;
+}
+
+div#content {
+    padding: 50px;
+    background-color: #FFCBA4;
+    border: solid 1px #333333;
+    height: 80vh;
+}
+
+h1, h2, h3 {
+    font-family: Brush Script MT, Brush Script Std, "cursive";
+}
+
+img {
+    float: right;
+    width: 400px;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: maroon;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
