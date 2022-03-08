@@ -1,25 +1,45 @@
+div#lab {
+  color: #F2DFC7;
+  -webkit-text-stroke: 0.5px black;
+}
+
 body {
     font-family: Brush Script MT, Brush Script Std, "cursive";
     background-color: #FFB673;
     padding: 25px;
-    font-size: 120%;
+    font-size: 130%;
 }
 
 div#content {
-    padding: 50px;
+    padding: 30px;
     background-color: #FFCBA4;
-    border: solid 1px #333333;
-    height: 80vh;
+    border: dashed 2px #333333;
+    height: 120vh;
 }
 
 h1, h2, h3 {
     font-family: Brush Script MT, Brush Script Std, "cursive";
+    color: #F89975;
+    font-size: 150%;
 }
 
 img {
+    padding: 20px;
     float: right;
-    width: 400px;
+    width: 300px;
+    max-width: 100%;
     height: auto;
+    border: solid 2px #333333;
+    border-color: white;
+    border-radius: 3px;
+}
+
+img:hover {
+  width: 500px;
+  height: auto;
+  border: white;
+  transform: scale(300%) translate(-15px, 25px);
+  transition: all 3s ease-in;
 }
 
 a {
@@ -28,5 +48,5 @@ a {
 }
 a:hover {
     text-decoration: underline;
-    text-decoration-style: wavy;
+    text-decoration-style: none;
 }
