@@ -1,0 +1,87 @@
+div#lab {
+  color: white;
+  -webkit-text-stroke: 0.8px black;
+}
+
+body {
+    font-family: URW Chancery L, cursive;
+    padding: 25px;
+    font-size: 120%;
+    font-color: white;
+    -webkit-text-stroke: 0.5px black;
+}
+
+body {
+  background-image: url(img/"img_lofi.gif");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-color: #FFB7C5;
+}
+
+main#content {
+    padding: 30px;
+    border: dashed 2px #333333;
+    height: 150vh;
+    background-color: #FFD1DA;
+}
+
+nav#links {
+  position: fixed;
+  top: 10px;
+  right: 20px;
+}
+
+nav#links a{
+  border: dashed 2px #333333
+  padding: 5px;
+  background-color:#FFB7C5;
+}
+
+aside#sidebar {
+  float: right;
+  display: inline-block;
+  width: 20%;
+  min-width: 100px;
+  border: solid 2px #333333;
+  padding: 20px;
+  background-color: #FFB7C5;
+}
+
+h1, h2, {
+    font-family: URW Chancery L, cursive;
+    color: white;
+    font-size: 150%;
+}
+
+h3 {
+  font-size: 100%
+}
+
+img {
+    padding: 20px;
+    float: left;
+    width: 20%;
+    min-width: 200px;
+    max-width: 300px;
+    height: auto;
+    border: solid 4px #333333;
+    border-color: black;
+    border-radius: 2px;
+}
+
+img:hover {
+  width: 500px;
+  height: auto;
+  border: white;
+  transform: scale(300%) translate(-15px, 25px);
+  transition: all 3s ease-in;
+}
+
+a {
+    text-decoration: none;
+    color: maroon;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: none;
+}
