@@ -1,0 +1,81 @@
+img#logo {
+    padding: 20px;
+    float: left;
+    width: 150px;
+    height: auto;
+}
+
+body{
+  background-color:#ffeabe;
+}
+
+div#banner{
+  position: absolute;
+  top: 0;
+  height: 25vh;
+  z-index: 0;
+}
+
+div#logo img{
+  width: 10vh;
+  height: auto;
+  left: 0;
+  position: relative;
+  transform: translate(30%, 50%)
+}
+
+nav{
+  margin: 0;
+  padding: 0;
+  font-family: "Glacial Indifference Bold";
+  width: 80vw;
+  height: 20vh;
+  border: solid 2px #C1AE85;
+  border-color: #C1AE85;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+nav ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: absolute;
+  right: 100px;
+  top: 60px;
+  font-size: 30px;
+}
+
+nav a{
+  padding-left: 20px;
+  padding-right: 20px;
+  top: 20%;
+  text-decoration: none;
+  color: black;
+}
+
+nav li{
+  display: inline-block;
+}
+
+div#titlebar{
+  padding: 6%;
+  text-align: center;
+  font-size: 60px;
+  font-family: "Glacial Indifference Bold";
+}
+
+div#titlebar img{
+  height: 150px;
+  width: auto;
+}
+
+div#bodytext{
+  text-align: center;
+  font-size: 30px;
+  font-family: "Glacial Indifference Bold";
+  width: 60%;
+  height: 25px;
+  left: 250px;
+  position: relative;
+}

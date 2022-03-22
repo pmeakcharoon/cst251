@@ -1,0 +1,152 @@
+div#lab {
+  color: white;
+  -webkit-text-stroke: 0.9px black;
+  background-color: RGB(197,70,68, 0.7);
+  border: solid 2px #333333;
+  border-color: white;
+  border-radius: 25px;
+  text-align: center;
+}
+
+iframe#fake {
+    width: 700px;
+    height: 500px;
+    resize: both;
+    overflow: hidden;
+}
+
+aside#sidebar {
+  float: right;
+  display: inline-block;
+  width: 20%;
+  min-width: 100px;
+  border: solid 2px #333333;
+  border-color: white;
+  border-radius: 25px;
+  background-color: RGB(197,70,68, 0.7);
+  padding: 20px;
+  font-family: "Apple Chancery", cursive;
+  color: white;
+}
+
+div#nezuko{
+  width: 500px;
+  height: auto;
+}
+
+nav#links {
+  position: relative;
+  bottom: 0.5px;
+  right: 1px;
+}
+
+nav#links a{
+  padding: 5px;
+  background-color: white;
+  border-radius: 25px;
+}
+
+body {
+  background-image: url("../img/street.gif");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  padding: 25px;
+  font-size: 120%;
+}
+
+div#challenge {
+  padding: 10px;
+  background-color: RGB(197,70,68, 0.7);
+  border: solid 2px #333333;
+  border-color: white;
+  width: 60%;
+  text-align: center;
+  border-radius: 25px;
+  font-family: "Apple Chancery", cursive;
+  color: white;
+}
+
+div#problem {
+  padding: 10px;
+  background-color: RGB(197,70,68, 0.7);
+  border: solid 2px #333333;
+  border-color: white;
+  width: 60%;
+  text-align: center;
+  border-radius: 25px;
+  font-family: "Apple Chancery", cursive;
+  color: white;
+}
+
+div#finalresult{
+  padding: 10px;
+  background-color: RGB(197,70,68, 0.7);
+  border: solid 2px #333333;
+  border-color: white;
+  width: 60%;
+  text-align: center;
+  border-radius: 25px;
+  font-family: "Apple Chancery", cursive;
+  color: white;
+}
+
+h1 {
+  font-family: "Apple Chancery", cursive;
+  color: white;
+  font-size: 150%;
+  -webkit-text-stroke: 0.7px black;
+}
+
+h2 {
+  font-family: "Apple Chancery", cursive;
+    color: white;
+    font-size: 150%;
+    -webkit-text-stroke: 0.7px black;
+}
+
+h3 {
+  font-family: "Apple Chancery", cursive;
+  color: white;
+  font-size: 150%;
+  -webkit-text-stroke: 0.7px black;
+}
+
+div#img:hover {
+  width: 20px;
+  height: auto;
+  transform: scale(200%) translate(-15px, 25px);
+  transition: all 3s ease-in;
+  overflow: hidden;
+  border: solid 3px #333333;
+  border-color: white;
+}
+
+div#center-img {
+  width: 20px;
+  height: auto;
+  float: left;
+  opacity: 100px;
+}
+
+div#center-both {
+  width: 20px;
+  height: auto;
+  float: left;
+  transform: translate(-50%,-50%);
+}
+
+img {
+    padding: 20px;
+    float: left;
+    width: 150px;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: maroon;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: none;
+}
