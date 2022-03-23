@@ -1,0 +1,44 @@
+body {
+    z-index: -2000;
+    background-image: url("../img/landscape.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+
+span#banner1 {
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    font-weight: bold;
+}
+
+span#banner2 {
+    top: 0px;
+    right: 20px;
+    position: absolute;
+    font-weight: bold;
+}
+
+div#header {
+    position: absolute;
+    left: 10%;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 900%;
+    line-height: 0.1;
+    padding-top: 9%;
+    padding-bottom: 1%;
+}
+
+div#paragraph {
+    position: absolute;
+    left: 10%;
+    top: 70vh;
+    color: white;
+    width: 32vw;
+    font-size: 130%;
+}
+
+p {
+   font-family: "Times New Roman";
+}

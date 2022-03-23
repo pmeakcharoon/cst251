@@ -1,7 +1,7 @@
 div#lab {
   color: white;
   -webkit-text-stroke: 0.9px black;
-  background-color: RGB(197,70,68, 0.7);
+  background-color: RGB(0,118,182, 0.7);
   border: solid 2px #333333;
   border-color: white;
   border-radius: 25px;
@@ -10,7 +10,7 @@ div#lab {
 }
 
 iframe#fake {
-    width: 7\00px;
+    width: 700px;
     height: 500px;
     resize: both;
     overflow: hidden;
@@ -24,13 +24,13 @@ aside#sidebar {
   border: solid 2px #333333;
   border-color: white;
   border-radius: 25px;
-  background-color: RGB(197,70,68, 0.7);
+  background-color: RGB(0,118,182, 0.7);
   padding: 20px;
   font-family: "Apple Chancery", cursive;
   color: white;
 }
 
-div#nezuko{
+div#funny{
   width: 500px;
   height: auto;
 }
@@ -48,16 +48,17 @@ nav#links a{
 }
 
 body {
-  background-image: url("../img/street.gif");
+  background-image: url("../img/building.gif");
   background-repeat: repeat;
   background-attachment: fixed;
+  background-size: cover;
   padding: 25px;
   font-size: 120%;
 }
 
 div#challenge {
   padding: 10px;
-  background-color: RGB(197,70,68, 0.7);
+  background-color: RGB(0,118,182, 0.7);
   border: solid 2px #333333;
   border-color: white;
   width: 60%;
@@ -70,7 +71,7 @@ div#challenge {
 
 div#problem {
   padding: 10px;
-  background-color: RGB(197,70,68, 0.7);
+  background-color: RGB(0,118,182, 0.7);
   border: solid 2px #333333;
   border-color: white;
   width: 60%;
@@ -83,7 +84,7 @@ div#problem {
 
 div#finalresult{
   padding: 10px;
-  background-color: RGB(197,70,68, 0.7);
+  background-color: RGB(0,118,182, 0.7);
   border: solid 2px #333333;
   border-color: white;
   width: 60%;
