@@ -1,0 +1,164 @@
+div#lab {
+  color: white;
+  -webkit-text-stroke: 0.9px black;
+  background-color: #B36F7C;
+  border-bottom: solid 2px #333333;
+  border-color: white;
+  text-align: center;
+  margin: 40px;
+  box-shadow: 3px 3px 5px grey;
+}
+
+aside#sidebar {
+  float: right;
+  display: inline-block;
+  width: 20%;
+  min-width: 100px;
+  border: solid 2px #333333;
+  border-color: white;
+  border-radius: 25px;
+  background-color: #B36F7C;
+  padding: 20px;
+  font-family: "Apple Chancery", cursive;
+  color: white;
+  box-shadow: 3px 3px 5px grey;
+}
+
+nav#links a{
+  position: relative;
+  left: 5px;
+  bottom: 10px;
+  color: white;
+  font-size: 100%;
+}
+
+body {
+  background-image: linear-gradient(#F6E1D3, #FFB7C5);
+  padding: 25px;
+  font-size: 120%;
+}
+
+div#chat{
+  background-color: white;
+  border: solid 6px;
+  border-color: black;
+  width: 65%;
+  height: auto;
+  box-shadow: 3px 3px 5px grey;
+}
+
+div#challenge {
+  padding: 5px;
+  background-color: blue;
+  border: solid 2px #333333;
+  border-color: blue;
+  width: 60%;
+  border-radius: 25px 25px 0 25px;
+  font-family: "Trebuchet MS", sans-serif;
+  color: white;
+  margin: 10px;
+  position: relative;
+  left: 250px;
+
+}
+
+div#problem {
+  padding: 5px;
+  background-color: darkgray;
+  border: solid 2px #333333;
+  border-color: darkgray;
+  width: 50%;
+  border-radius: 25px 25px 25px 0;
+  font-family: "Trebuchet MS", sans-serif;
+  color: white;
+  margin: 10px;
+}
+
+div#finalresult{
+  padding: 5px;
+  background-color: blue;
+  border: solid 2px #333333;
+  border-color: blue;
+  width: 60%;
+  border-radius: 25px 25px 0 25px;
+  font-family: "Trebuchet MS", sans-serif;
+  color: white;
+  margin: 10px;
+  position: relative;
+  left: 250px;
+}
+
+div#fun{
+  padding: 5px;
+  background-color: darkgray;
+  border: solid 2px #333333;
+  border-color: darkgray;
+  width: 50%;
+  height: 60vh;
+  border-radius: 25px 25px 25px 0;
+  color: white;
+  margin: 10px;
+  position: relative;
+}
+
+h1 {
+  font-family: FreeMono, monospace;
+  color: white;
+  font-size: 150%;
+  -webkit-text-stroke: 0.7px black;
+  text-shadow: -1px 0 black,
+    0 1px black,
+    1px 0 black,
+    0 -1px black;
+  text-align: center;
+}
+
+h2 {
+  font-family: FreeMono, monospace;
+    color: white;
+    font-size: 150%;
+    -webkit-text-stroke: 0.7px black;
+    text-shadow: -1px 0 black,
+      0 1px black,
+      1px 0 black,
+      0 -1px black;
+    text-align: center;
+}
+
+h3 {
+  font-family: FreeMono, monospace;
+  color: white;
+  font-size: 150%;
+  -webkit-text-stroke: 0.7px black;
+  text-shadow: -1px 0 black,
+    0 1px black,
+    1px 0 black,
+    0 -1px black;
+    text-align: center;
+}
+
+img {
+    padding: 20px;
+    float: left;
+    width: 150px;
+    height: auto;
+    object-fit: cover;
+
+}
+
+img {
+ filter: blur(5px);
+}
+
+img:hover {
+ filter: blur(0);
+}
+
+a {
+    text-decoration: none;
+    color: #B36F7C;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: none;
+}
