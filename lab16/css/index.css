@@ -1,0 +1,156 @@
+div#lab {
+  color: black;
+  -webkit-text-stroke: 0.9px black;
+  background-color: white;
+  border-bottom: solid 2px #333333;
+  border-color: darkgray;
+  border-radius: 25px;
+  text-align: center;
+  margin: 40px;
+  box-shadow: 3px 3px 5px grey;
+}
+
+aside#sidebar {
+  float: right;
+  display: inline-block;
+  width: 20%;
+  min-width: 100px;
+  border: solid 2px #333333;
+  border-color: darkgray;
+  border-radius: 25px;
+  background-color: white;
+  padding: 20px;
+  font-family: "Apple Chancery", cursive;
+  color: black;
+  box-shadow: 3px 3px 5px grey;
+}
+
+nav#links a{
+  position: relative;
+  left: 5px;
+  bottom: 10px;
+  color: black;
+  font-size: 100%;
+}
+
+body{
+  background-color: #00C0F0;
+  background-image: url("../img/clouds.gif");
+  background-position: top;
+  background-repeat: no-repeat, repeat;
+  background-size: 1500px 500px;
+  padding: 25px;
+  font-size: 120%;
+  margin: 10px;
+}
+
+div#challenge {
+  padding: 10px;
+  background-color: white;
+  border: solid 2px #333333;
+  border-color: darkgray;
+  border-radius: 25px;
+  font-family: "Trebuchet MS", sans-serif;
+  color: black;
+  column-count: 3;
+  margin: 20px;
+  width: 70%;
+  height: 20vh;
+  right: 20px;
+  position: relative;
+}
+
+div#problem {
+  padding: 10px;
+  background-color: white;
+  border: solid 2px #333333;
+  border-color: darkgray;
+  border-radius: 25px;
+  font-family: "Trebuchet MS", sans-serif;
+  color: black;
+  column-count: 4;
+  margin: 20px;
+  width: 70%;
+  height: 20vh;
+  position: relative;
+  left: 20px;
+}
+
+div#finalresult{
+  padding: 10px;
+  background-color: white;
+  border: solid 2px #333333;
+  border-color: darkgray;
+  border-radius: 25px;
+  font-family: "Trebuchet MS", sans-serif;
+  color: black;
+  column-count: 3;
+  margin: 20px;
+  width: 70%;
+  height: 30vh;
+  right: 20px;
+  position: relative;
+}
+
+h1 {
+  font-family: FreeMono, monospace;
+  color: darkgray;
+  font-size: 150%;
+  -webkit-text-stroke: 0.7px black;
+  text-shadow: -1px 0 black,
+    0 1px black,
+    1px 0 black,
+    0 -1px black;
+  text-align: center;
+}
+
+h2 {
+  font-family: FreeMono, monospace;
+    color: darkgray;
+    font-size: 150%;
+    -webkit-text-stroke: 0.7px black;
+    text-shadow: -1px 0 black,
+      0 1px black,
+      1px 0 black,
+      0 -1px black;
+    text-align: center;
+}
+
+h3 {
+  font-family: FreeMono, monospace;
+  color: darkgray;
+  font-size: 150%;
+  -webkit-text-stroke: 0.7px black;
+  text-shadow: -1px 0 black,
+    0 1px black,
+    1px 0 black,
+    0 -1px black;
+    text-align: center;
+}
+
+img {
+    padding: 20px;
+    float: left;
+    width: 150px;
+    height: auto;
+}
+
+img {
+ filter: blur(5px);
+}
+
+img:hover {
+ filter: blur(0);
+ width: 200px;
+ height: 150px;
+ transition: width 2s, height 4s;
+}
+
+a {
+    text-decoration: none;
+    color: #B36F7C;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: none;
+}
