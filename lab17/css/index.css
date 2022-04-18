@@ -32,3 +32,16 @@ a:hover{
   text-decoration-style: none;
   text-decoration: underline;
 }
+
+footer{
+  position: absolute;
+  text-align: center;
+  color: white;
+  left: 0;
+  bottom: 0;
+  width: 40%;
+  height: auto;
+  background-color: #00A9B5;
+  border: solid 2px #333333;
+  border-color: black;
+}

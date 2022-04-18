@@ -1,0 +1,149 @@
+div#lab {
+  color: black;
+  -webkit-text-stroke: 0.9px black;
+  background-color: white;
+  border-bottom: solid 2px #333333;
+  border-color: darkgray;
+  border-radius: 25px;
+  text-align: center;
+  margin: 40px;
+  box-shadow: 3px 3px 5px grey;
+}
+
+aside#sidebar {
+  display: inline-block;
+  border: solid 2px #333333;
+  border-color: darkgray;
+  border-radius: 25px;
+  background-color: white;
+  padding: 20px;
+  font-family: "Apple Chancery", cursive;
+  color: black;
+  box-shadow: 3px 3px 5px grey;
+  margin: 10px;
+  width: 40%;
+  float: left;
+  font-family: FreeMono, monospace;
+}
+
+@media screen and (max-width:600px) {
+    section , nav , aside {
+      width: auto; }
+}
+
+div#content {
+  justify-content: space-around;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+div#content1 {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+}
+
+nav#links a{
+  position: relative;
+  left: 5px;
+  bottom: 10px;
+  color: black;
+  font-size: 100%;
+}
+
+div#box{
+  border: solid 2px #333333;
+  border-color: darkgray;
+  border-radius: 25px;
+  background-color: white;
+  box-shadow: 3px 3px 5px grey;
+  width: 80%;
+}
+
+body{
+  background-color: #FFA04D;
+  padding: 25px;
+  font-size: 120%;
+  margin: 10px;
+}
+
+div#box{
+  border: solid 2px #333333;
+  border-color: darkgray;
+  border-radius: 25px;
+  background-color: white;
+  box-shadow: 3px 3px 5px grey;
+  width: 90%;
+  margin: 10px;
+}
+
+h1 {
+  font-family: FreeMono, monospace;
+  color: #FFA04D;
+  font-size: 150%;
+  -webkit-text-stroke: 0.7px black;
+  text-shadow: -1px 0 black,
+    0 1px black,
+    1px 0 black,
+    0 -1px black;
+  text-align: center;
+}
+
+h2 {
+  font-family: FreeMono, monospace;
+    color: #FFA04D;
+    font-size: 150%;
+    -webkit-text-stroke: 0.7px black;
+    text-shadow: -1px 0 black,
+      0 1px black,
+      1px 0 black,
+      0 -1px black;
+    text-align: center;
+}
+
+h3 {
+  font-family: FreeMono, monospace;
+  color: #FFA04D;
+  font-size: 150%;
+  -webkit-text-stroke: 0.7px black;
+  text-shadow: -1px 0 black,
+    0 1px black,
+    1px 0 black,
+    0 -1px black;
+    text-align: center;
+}
+
+p{
+  text-align: center;
+  color: black;
+}
+
+img {
+    padding: 20px;
+    float: left;
+    max-width: 100%;
+    height: auto;
+}
+
+footer{
+  text-align: center;
+  color: black;
+  right: 20px;
+  top: 420px;
+  width: 80%;
+  height: auto;
+  background-color: white;
+  border: solid 2px #333333;
+  border-color: black;
+  margin: 10px;
+  border-radius: 25px;
+  box-shadow: 3px 3px 5px grey;
+  font-family: FreeMono, monospace;
+}
+
+a {
+    text-decoration: none;
+    color: #B36F7C;
+}
