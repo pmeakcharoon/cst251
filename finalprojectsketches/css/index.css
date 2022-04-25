@@ -1,0 +1,145 @@
+div#lab {
+  color: black;
+  -webkit-text-stroke: 0.9px black;
+  background-color: white;
+  border-bottom: solid 2px #333333;
+  border-color: darkgray;
+  border-radius: 25px;
+  text-align: center;
+  margin: 40px;
+  box-shadow: 3px 3px 5px grey;
+}
+
+@media screen and (max-width:600px) {
+    section , nav , aside {
+      width: auto; }
+}
+
+nav#links a{
+  position: relative;
+  left: 5px;
+  bottom: 10px;
+  color: black;
+  font-size: 100%;
+}
+
+div#content{
+  border: solid 2px #333333;
+  border-color: darkgray;
+  border-radius: 25px;
+  background-color: white;
+  box-shadow: 3px 3px 5px grey;
+  width: 90%;
+}
+
+div#movieidea1{
+  border: solid 2px #333333;
+  border-color: darkgray;
+  border-radius: 25px;
+  background-color: white;
+  box-shadow: 3px 3px 5px grey;
+  width: 90%;
+  height: 70vh;
+}
+
+div#movieidea2{
+  border: solid 2px #333333;
+  border-color: darkgray;
+  border-radius: 25px;
+  background-color: white;
+  box-shadow: 3px 3px 5px grey;
+  width: 90%;
+  height: 70vh;
+}
+
+div#movieidea3{
+  border: solid 2px #333333;
+  border-color: darkgray;
+  border-radius: 25px;
+  background-color: white;
+  box-shadow: 3px 3px 5px grey;
+  width: 90%;
+  height: 70vh;
+}
+
+div#movieidea4{
+  border: solid 2px #333333;
+  border-color: darkgray;
+  border-radius: 25px;
+  background-color: white;
+  box-shadow: 3px 3px 5px grey;
+  width: 90%;
+  height: 70vh;
+}
+
+div#movieidea5{
+  border: solid 2px #333333;
+  border-color: darkgray;
+  border-radius: 25px;
+  background-color: white;
+  box-shadow: 3px 3px 5px grey;
+  width: 90%;
+  height: 70vh;
+}
+
+body{
+  background-color: #FFA04D;
+  padding: 25px;
+  font-size: 120%;
+  margin: 10px;
+}
+
+h1 {
+  font-family: FreeMono, monospace;
+  color: #FFA04D;
+  font-size: 150%;
+  -webkit-text-stroke: 0.7px black;
+  text-shadow: -1px 0 black,
+    0 1px black,
+    1px 0 black,
+    0 -1px black;
+  text-align: center;
+}
+
+h2 {
+  font-family: FreeMono, monospace;
+    color: #FFA04D;
+    font-size: 150%;
+    -webkit-text-stroke: 0.7px black;
+    text-shadow: -1px 0 black,
+      0 1px black,
+      1px 0 black,
+      0 -1px black;
+    text-align: center;
+}
+
+h3 {
+  font-family: FreeMono, monospace;
+  color: #FFA04D;
+  font-size: 150%;
+  -webkit-text-stroke: 0.7px black;
+  text-shadow: -1px 0 black,
+    0 1px black,
+    1px 0 black,
+    0 -1px black;
+    text-align: center;
+}
+
+p{
+  text-align: center;
+  color: black;
+}
+
+img {
+    padding: 20px;
+    float: right;
+    max-width: 100%;
+    height: auto;
+    width: 30%;
+    box-shadow: 3px 3px 5px grey;
+}
+
+a {
+    text-decoration: none;
+    color: #B36F7C;
+}
